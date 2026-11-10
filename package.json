@@ -1,0 +1,14 @@
+{
+  "name": "phone-partner-engine",
+  "version": "1.0.0",
+  "description": "Phone Partner Engine - production",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "sqlite3": "^5.1.7"
+  }
+}
